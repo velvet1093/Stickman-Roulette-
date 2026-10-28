@@ -15,3 +15,7 @@ Use arrow keys or WASD to move, Shift to run, and E or Space to interact. On mob
 No build or dependencies are required. Open `index.html`, or run `python -m http.server 8000` from this directory. All art and audio are generated in JavaScript. The optional Google font has a built-in fallback.
 
 Original source files are in `js/` and `css/`.
+
+## Offline version
+
+Download `sakura-hearts.html` and open it in a modern browser. This single-file version includes all scripts and styles and makes no external requests. It uses a system monospace font. Browser saves stay on the device and browser you use.
