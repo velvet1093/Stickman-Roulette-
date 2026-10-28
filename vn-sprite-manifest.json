@@ -1,0 +1,991 @@
+{
+  "name": "Base main-outfit visual-novel portraits",
+  "asset_count": 10,
+  "scope": "Standalone portrait assets; game integration is not included.",
+  "source_handling": "Byte-for-byte copies of the generated PNG originals, preserving pixels, alpha, metadata, and provenance chunks.",
+  "bounds_convention": "All bounds are [left, top, right, bottom], with right and bottom exclusive. Threshold 1 includes faint alpha haze; thresholds 32 and 128 measure more visible content.",
+  "alpha_count_convention": "Transparent: alpha = 0. Partially transparent: 1 <= alpha <= 254. Opaque: alpha = 255.",
+  "border_alpha_convention": "Measurements cover the one-pixel canvas perimeter, separately for each side. Corners are included on both adjacent sides. Alpha sums use the original integer alpha values.",
+  "assets": [
+    {
+      "id": "nami",
+      "character": "Nami",
+      "file": "nami.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-a3802bf5-350c-4678-b70c-42cb15f604ca.png",
+      "bytes": 1554147,
+      "sha256": "f1ffc7ae680b0f14647584b23099da6afff45721e837208699ce3ac05d490267",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 27,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1130199,
+      "partially_transparent_pixels": 442665,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        33,
+        0,
+        954,
+        1536
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          33,
+          0,
+          954,
+          1536
+        ],
+        "32": [
+          249,
+          5,
+          799,
+          1530
+        ],
+        "128": [
+          249,
+          5,
+          799,
+          1529
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 5,
+          "alpha_sum": 129,
+          "pixels_alpha_ge_1": 61,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 91,
+          "pixels_alpha_ge_1": 54,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "aqua",
+      "character": "Aqua",
+      "file": "aqua.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-8784ece0-b597-4e31-8905-a39a667ff5ec.png",
+      "bytes": 1549335,
+      "sha256": "3b44994f16ccbc4419c320d9926a3017286a36dbb7880d44eff8944f1fc158b9",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 27,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1118531,
+      "partially_transparent_pixels": 454333,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        39,
+        0,
+        1004,
+        1536
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          39,
+          0,
+          1004,
+          1536
+        ],
+        "32": [
+          277,
+          9,
+          953,
+          1525
+        ],
+        "128": [
+          278,
+          9,
+          952,
+          1524
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 66,
+          "pixels_alpha_ge_1": 32,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 1,
+          "alpha_sum": 25,
+          "pixels_alpha_ge_1": 25,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "krul",
+      "character": "Krul",
+      "file": "krul.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-555271f2-6887-42b1-b280-4fc55deb883f.png",
+      "bytes": 1875979,
+      "sha256": "00ae72b4b8cef8694273c603965353ec0b1f297aa9209c89991074f8698232d4",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 32,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 790147,
+      "partially_transparent_pixels": 782717,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        0,
+        0,
+        1004,
+        1536
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          0,
+          0,
+          1004,
+          1536
+        ],
+        "32": [
+          68,
+          4,
+          971,
+          1509
+        ],
+        "128": [
+          69,
+          5,
+          970,
+          1508
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 21,
+          "pixels_alpha_ge_1": 12,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 1,
+          "alpha_sum": 14,
+          "pixels_alpha_ge_1": 14,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 1,
+          "alpha_sum": 10,
+          "pixels_alpha_ge_1": 10,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "marin",
+      "character": "Marin",
+      "file": "marin.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-647a50e7-d9bf-4f63-90e5-4d5e6d2809bf.png",
+      "bytes": 1482368,
+      "sha256": "242fab2dc2926b68776423d7eb09f2f13c04463c8318ed058f78477d6a19f415",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 26,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1175150,
+      "partially_transparent_pixels": 397714,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        35,
+        0,
+        946,
+        1519
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          35,
+          0,
+          946,
+          1519
+        ],
+        "32": [
+          280,
+          4,
+          808,
+          1516
+        ],
+        "128": [
+          280,
+          4,
+          807,
+          1516
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 8,
+          "alpha_sum": 268,
+          "pixels_alpha_ge_1": 63,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "asuna",
+      "character": "Asuna",
+      "file": "asuna.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-cde4bd3f-d836-4931-8be3-37a0d0a877a9.png",
+      "bytes": 1726080,
+      "sha256": "c330d1f39606c6f358f67e5e9c276f0f8057ecee14a1388f1bb3dc25c544b0a9",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 29,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1037381,
+      "partially_transparent_pixels": 535483,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        23,
+        0,
+        996,
+        1523
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          23,
+          0,
+          996,
+          1523
+        ],
+        "32": [
+          237,
+          5,
+          880,
+          1520
+        ],
+        "128": [
+          237,
+          6,
+          879,
+          1520
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 5,
+          "alpha_sum": 163,
+          "pixels_alpha_ge_1": 61,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "kurumi",
+      "character": "Kurumi",
+      "file": "kurumi.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-7913f1b2-e869-4703-8d2f-f1a7803bd437.png",
+      "bytes": 1479557,
+      "sha256": "d69d08e88ec1b344e0b927750128984cba192c3902bb957d196f0823608ca6dc",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 26,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1137761,
+      "partially_transparent_pixels": 435103,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        43,
+        0,
+        1002,
+        1536
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          43,
+          0,
+          1002,
+          1536
+        ],
+        "32": [
+          166,
+          5,
+          864,
+          1526
+        ],
+        "128": [
+          166,
+          6,
+          864,
+          1525
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 86,
+          "pixels_alpha_ge_1": 47,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 1,
+          "alpha_sum": 25,
+          "pixels_alpha_ge_1": 25,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "zerotwo",
+      "character": "Zero Two",
+      "file": "zerotwo.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-1a359e61-9ef4-41bd-8a9d-28f6f5526b68.png",
+      "bytes": 1451972,
+      "sha256": "c5e79a99a6c05ea6e8159aabbae058b3df90ba191d6537925915720e2db9a1ca",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 25,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1132136,
+      "partially_transparent_pixels": 440728,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        49,
+        0,
+        1008,
+        1536
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          49,
+          0,
+          1008,
+          1536
+        ],
+        "32": [
+          249,
+          6,
+          876,
+          1527
+        ],
+        "128": [
+          249,
+          7,
+          875,
+          1527
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 102,
+          "pixels_alpha_ge_1": 64,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 1,
+          "alpha_sum": 46,
+          "pixels_alpha_ge_1": 46,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "rem",
+      "character": "Rem",
+      "file": "rem.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-ccf3b6d9-87fd-4b6c-8bcd-16eef5182f68.png",
+      "bytes": 1423998,
+      "sha256": "7f22e12a88ac2e954ef7b4ff8b73f3ba410e887ac2b5d2bc170dc2cd81a98716",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 25,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1182129,
+      "partially_transparent_pixels": 390735,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        17,
+        0,
+        1002,
+        1525
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          17,
+          0,
+          1002,
+          1525
+        ],
+        "32": [
+          219,
+          7,
+          814,
+          1523
+        ],
+        "128": [
+          219,
+          7,
+          814,
+          1522
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 1,
+          "alpha_sum": 24,
+          "pixels_alpha_ge_1": 24,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "frieren",
+      "character": "Frieren",
+      "file": "frieren.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-948de3ac-851b-408d-a2a1-e8d80f4db29b.png",
+      "bytes": 1647962,
+      "sha256": "f31ec0576c16f6ec8dcf0b3eab5fbaba8c1baa8ecdab60f0d99ab9416f7e22e3",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 28,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1075463,
+      "partially_transparent_pixels": 497401,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        0,
+        17,
+        1018,
+        1521
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          0,
+          17,
+          1018,
+          1521
+        ],
+        "32": [
+          190,
+          21,
+          878,
+          1517
+        ],
+        "128": [
+          190,
+          22,
+          878,
+          1517
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 1,
+          "alpha_sum": 9,
+          "pixels_alpha_ge_1": 9,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    },
+    {
+      "id": "yumeko",
+      "character": "Yumeko",
+      "file": "yumeko.png",
+      "variant": "base",
+      "pose_count": 1,
+      "outfit": "main",
+      "source_file": "exec-b87b85e9-4c20-42d7-9294-5bbf7992dcbe.png",
+      "bytes": 1459289,
+      "sha256": "6753621451194d828bfadc9b5c8c80a9719b079857dd66bdcf21824ba391ba3a",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "png_color_type": 6,
+      "png_compression_method": 0,
+      "png_filter_method": 0,
+      "png_interlace_method": 0,
+      "interlaced": false,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "png_chunk_count": 25,
+      "all_png_chunk_crcs_valid": true,
+      "has_alpha_channel": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1139449,
+      "partially_transparent_pixels": 433415,
+      "opaque_pixels": 0,
+      "nontransparent_bounds": [
+        71,
+        0,
+        988,
+        1522
+      ],
+      "bounds_at_alpha_thresholds": {
+        "1": [
+          71,
+          0,
+          988,
+          1522
+        ],
+        "32": [
+          189,
+          6,
+          855,
+          1520
+        ],
+        "128": [
+          189,
+          6,
+          855,
+          1520
+        ]
+      },
+      "border_alpha": {
+        "top": {
+          "pixel_count": 1024,
+          "max_alpha": 3,
+          "alpha_sum": 69,
+          "pixels_alpha_ge_1": 40,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "right": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "bottom": {
+          "pixel_count": 1024,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        },
+        "left": {
+          "pixel_count": 1536,
+          "max_alpha": 0,
+          "alpha_sum": 0,
+          "pixels_alpha_ge_1": 0,
+          "pixels_alpha_ge_32": 0,
+          "pixels_alpha_ge_128": 0
+        }
+      },
+      "source_copy_identical": true
+    }
+  ]
+}
