@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a2238">
+  <title>Sakura Hearts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+
+    <header id="hud" hidden>
+      <div class="hud-row">
+        <span id="hud-day"></span>
+        <span class="hud-right"><span id="hud-money"></span><button id="btn-fs" class="icon-btn" aria-label="Toggle fullscreen" hidden>⛶</button></span>
+      </div>
+      <div class="hud-row">
+        <span class="energy"><span>⚡</span><span class="bar"><span id="hud-energy"></span></span><span id="hud-energy-num"></span></span>
+        <span id="hud-stats"></span>
+      </div>
+      <div class="hud-row needs" id="hud-needs" hidden></div>
+    </header>
+
+    <div id="title-logo" hidden>
+      <div class="logo">Sakura Hearts</div>
+      <div class="sub">a pixel life sim ♥</div>
+    </div>
+
+    <!-- town controls, drawn over the game view -->
+    <div id="world-ui" hidden>
+      <div id="touch-layer" aria-hidden="true"></div>
+      <div id="prompt"></div>
+      <div id="joy" aria-hidden="true"><div id="knob"></div></div>
+      <div id="joy-hint">Drag anywhere to move</div>
+      <div class="side">
+        <div class="mini">
+          <button id="btn-map" class="round" aria-label="Map">🗺️</button>
+          <button id="btn-phone" class="round" aria-label="Phone">📱</button>
+          <button id="btn-bag" class="round" aria-label="Bag">🎒</button>
+        </div>
+        <div class="act-row">
+          <button id="btn-run" class="runbtn" aria-label="Run" aria-pressed="false">RUN</button>
+          <button id="btn-a" class="abtn" aria-label="Interact">A</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel">
+      <div id="relbar" hidden></div>
+      <div id="dialog" hidden>
+        <div id="speaker"></div>
+        <div id="text"></div>
+        <div id="next">▼</div>
+      </div>
+      <div id="menu"></div>
+    </div>
+
+    <div id="toast"></div>
+    <div id="daycard" hidden></div>
+  </div>
+
+  <div id="modal" hidden>
+    <div class="sheet">
+      <div class="sheet-head"><span id="modal-title"></span><button id="modal-close" aria-label="Close">✕</button></div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="js/pixel.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/sprites.js"></script>
+  <script src="js/walkers.js"></script>
+  <script src="js/world.js"></script>
+  <script src="js/interiors.js"></script>
+  <script src="js/backgrounds.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/minigames.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
